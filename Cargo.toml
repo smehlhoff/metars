@@ -1,0 +1,11 @@
+[package]
+name = "metars"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+flate2 = "1.0.34"
+polars = { version =  "0.44.2", default-features = true }
+reqwest = "0.12.9"
+tokio = { version = "1.41.0", features = ["full"] }
